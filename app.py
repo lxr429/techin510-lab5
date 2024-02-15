@@ -7,6 +7,7 @@ from streamlit_folium import st_folium
 from db import conn_str
 from dotenv import load_dotenv
 
+st.write(conn_str)
 df = sqlio.read_sql_query("SELECT * FROM events", conn_str)
 st.write(df)
 

@@ -3,7 +3,6 @@ import json
 import datetime
 from zoneinfo import ZoneInfo
 import html
-
 import requests
 
 from db import get_db_conn
